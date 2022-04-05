@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wrap="http://foo.bar/wrappersoapserver">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <wrap:getUserFull>
+            <email>o1k@mail.ru</email>
+        </wrap:getUserFull>
+    </soapenv:Body>
+</soapenv:Envelope>
